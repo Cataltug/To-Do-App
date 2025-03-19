@@ -3,7 +3,7 @@ const listContainer = document.getElementById("list-container");
 const activeDayElement = document.getElementById("active-day");
 const progressBar = document.getElementById("progress-bar");
 const progressText = document.getElementById("progress-text");
-let activeDay = "Pazartesi";
+let activeDay = "Monday";
 
 inputBox.addEventListener("keypress", function(e){
     if(e.key === "Enter"){
